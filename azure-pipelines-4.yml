@@ -1,0 +1,8 @@
+trigger: none
+
+pool:
+  name: SelfHostedPool
+
+steps:
+- script: echo "Running on my self-hosted agent!"
+  displayName: "Self Hosted Agent Check"
